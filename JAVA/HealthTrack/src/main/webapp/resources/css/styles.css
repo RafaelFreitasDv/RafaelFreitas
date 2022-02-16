@@ -1,0 +1,101 @@
+/* Propriedades gerais */
+* {
+    font-family: 'Roboto', sans-serif;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#383838;
+}
+.form-control, .form-select {
+    padding: .6em;
+}
+.btn {
+    background-color: #9544FF;    
+    border: none;
+    color: whitesmoke;
+}.btn:hover {    
+    background-color: #FF8744;
+    border: none;
+    color: whitesmoke;
+}
+
+/* Propriedades da imagem da tela de login e cadastro */
+.loginHeader {
+    width: 45vh;
+}
+
+/* Propriedades do campo workflow */
+#wrkflw {
+    background: linear-gradient(360deg, rgb(149, 68, 255), rgba(255, 193, 159, 0.486) 100%);
+}
+
+/* Propriedades dos containers */
+.container {
+    box-sizing: border-box;
+    overflow: auto;
+}.containerConteudo {
+    height: 90vh;
+
+/* Propriedades dos históricos */
+}.containerHistorico {
+    height: 80vh;
+}.cardLinha {
+    align-items: center;
+    background-color: #f2f2f2;    
+}
+
+.btnActn {
+    width: 5.5vh;
+}.btnActnModal {
+    margin-bottom: .6em;
+    width: 7vh;
+}
+
+/* Propridade da imagem de avatar */
+.ftPrfl {
+    width: 20vh;
+    margin: .4em;
+}
+
+/* Propriedades das imagens dos históricos */
+.bsBdg {
+    width: 7vh;
+    margin: 0.4em;
+}
+
+/* Propriedades do menu de navegação */
+.nav {
+    align-items: center;
+    background-color: #dedede;
+} .nav img {    
+    height: 7vh;
+}
+
+/* Simulando o workFlow*/
+.triangulo{
+    width: 0; 
+    height: 0; 
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
+    border-top: 1vh solid #333;
+}
+.bola {
+    margin-left: 0px;
+    border-radius: 50%;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5vh;
+    width: 2.5vh;
+    border: none;
+    background-color: #333;
+}.bolaIntv {
+    border-radius: 50%;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5vh;
+    width: 2.5vh;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.603);
+}

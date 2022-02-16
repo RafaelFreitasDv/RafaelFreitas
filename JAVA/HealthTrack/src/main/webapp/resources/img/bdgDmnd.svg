@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DBDBDB;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<g>
+	
+		<rect x="119.5" y="159.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -132.1318 261.8376)" class="st0" width="261" height="261"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-432.0525" y1="1046.5446" x2="-432.0525" y2="1307.0182" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -276.5409 -928.4255)">
+		<stop  offset="0" style="stop-color:#FF4471"/>
+		<stop  offset="1" style="stop-color:#CD8EFF;stop-opacity:0.73"/>
+	</linearGradient>
+	<polygon class="st1" points="65.9,209.2 250.1,25 434.2,209.2 250.1,393.4 	"/>
+</g>
+</svg>
