@@ -1,0 +1,73 @@
+1.Questão-
+SELECT  C.NM_COLAB "Colaborador",
+        T.PROJETO_CD_PROJ "ID Projeto",
+        T.DT_INICIO "Data_Inicio",
+        TO_DATE(SYSDATE, 'DD/MM/YYYY') - TO_DATE(T.DT_INICIO, 'DD/MM/YYYY') "Dias decorridos"
+
+FROM    TRIBO T INNER JOIN COLABORADOR C
+    ON  (T.COLABORADOR_CD_COLAB = C.CD_COLAB)
+WHERE   T.PROJETO_CD_PROJ = 22 ORDER BY T.COLABORADOR_CD_COLAB DESC;
+
+-------------------------------------------------------------------------------------------
+2.Questão-
+SELECT  C.NM_COLAB "Colaborador",
+        S.NM_SKILL "Linguagem",
+        MAX(T.DT_FIM) "Último Projeto" 
+
+FROM TRIBO T INNER JOIN COLABORADOR C 
+    ON (T.COLABORADOR_cd_colab = C.CD_COLAB)
+    INNER JOIN HABILIDADE H 
+    ON (C.CD_COLAB = H.COLABORADOR_CD_COLAB)
+    INNER JOIN SKILL S 
+    ON H.SKILL_CD_SKILL = S.CD_SKILL
+
+WHERE H.SKILL_CD_SKILL = 5
+GROUP BY C.NM_COLAB, S.NM_SKILL;
+
+-------------------------------------------------------------------------------------------
+3.Questão-
+SELECT * FROM 
+(
+SELECT COUNT(*) NUM_COLAB ,P.NM_PROJETO, P.DT_INICIO, P.DT_FIM
+FROM TRIBO T
+INNER JOIN PROJETO P
+ON T.PROJETO_CD_PROJ = P.CD_PROJ
+WHERE P.DT_FIM > SYSDATE 
+GROUP BY P.NM_PROJETO,  P.DT_INICIO, P.DT_FIM
+ORDER BY P.DT_INICIO)
+WHERE ROWNUM = 1
+
+-------------------------------------------------------------------------------------------
+4.Questão-
+SELECT  P.CD_PROJ "CODIGO_PROJETO",
+        C.NM_CLIENTE "NOME_CLIENTE",
+        COUNT ( T.COLABORADOR_CD_COLAB) "NUMERO_COLABORADORES"
+       
+FROM CLIENTE C INNER JOIN PROJETO P
+ON( C.CD_CLIENTE = P.CLIENTE_CD_CLIENTE)
+INNER JOIN TRIBO T
+ON ( P.CD_PROJ = T.PROJETO_CD_PROJ ) group by P.CD_PROJ, C.NM_CLIENTE
+ORDER BY C.NM_CLIENTE;
+
+
+-------------------------------------------------------------------------------------------
+5.Questão-
+SELECT  C.NM_CLIENTE,
+        SUM(P.NB_TOTAL_HORAS)
+
+FROM   CLIENTE C LEFT JOIN PROJETO P
+        ON (P.CLIENTE_CD_CLIENTE = C.CD_CLIENTE)
+GROUP BY C.NM_CLIENTE;
+
+
+
+
+
+
+
+
+
+
+
+
+

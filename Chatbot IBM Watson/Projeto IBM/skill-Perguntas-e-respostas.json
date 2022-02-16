@@ -1,0 +1,1908 @@
+{
+  "intents": [
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "Até logo!"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Falou"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Ok, obrigado."
+        },
+        {
+          "text": "Tá bom, obrigado."
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Valeu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "duvidas",
+      "examples": [
+        {
+          "text": "Acho que estou com uma cárie"
+        },
+        {
+          "text": "afta"
+        },
+        {
+          "text": "aftas"
+        },
+        {
+          "text": "ancoragem esquelética"
+        },
+        {
+          "text": "Baseado estraga os dentes?"
+        },
+        {
+          "text": "Bebês podem escovar?"
+        },
+        {
+          "text": "bichectomia"
+        },
+        {
+          "text": "botox"
+        },
+        {
+          "text": "café"
+        },
+        {
+          "text": "Como eu faço"
+        },
+        {
+          "text": "Como eu uso"
+        },
+        {
+          "text": "Como evitar a gengivite?"
+        },
+        {
+          "text": "Como foram criados os palitos de dente?"
+        },
+        {
+          "text": "Com quantos"
+        },
+        {
+          "text": "Dente"
+        },
+        {
+          "text": "Devo"
+        },
+        {
+          "text": "Do que é feito um dente?"
+        },
+        {
+          "text": "facetas de porcelana"
+        },
+        {
+          "text": "Fio dental"
+        },
+        {
+          "text": "fluor criança"
+        },
+        {
+          "text": "gengivectomia"
+        },
+        {
+          "text": "harmonização facial"
+        },
+        {
+          "text": "lente de contato?"
+        },
+        {
+          "text": "mau hálito"
+        },
+        {
+          "text": "O que é"
+        },
+        {
+          "text": "O que é gengivite?"
+        },
+        {
+          "text": "O que é halitose?"
+        },
+        {
+          "text": "O que é periodontite?"
+        },
+        {
+          "text": "O que é preenchimento labial?"
+        },
+        {
+          "text": "o que é saúde bucal?"
+        },
+        {
+          "text": "O que fazer"
+        },
+        {
+          "text": "Para o que serve"
+        },
+        {
+          "text": "por que não pode mascar chiclete?"
+        },
+        {
+          "text": "Posso comer muito doce?"
+        },
+        {
+          "text": "Qual"
+        },
+        {
+          "text": "Quando devo"
+        },
+        {
+          "text": "Quando usar"
+        },
+        {
+          "text": "Quanto mede o maior dente do mundo?"
+        },
+        {
+          "text": "quantos dentes tem na boca?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fluor",
+      "examples": [
+        {
+          "text": "A partir de quantos anos devemos usar flúor?"
+        },
+        {
+          "text": "Como crianças se relacionam com o flúor?"
+        },
+        {
+          "text": "Com que idade meu filho deve usar pasta de dentes com flúor?"
+        },
+        {
+          "text": "Crianças"
+        },
+        {
+          "text": "O que é flúor?"
+        },
+        {
+          "text": "O que é o flúor?"
+        },
+        {
+          "text": "Quando começamos a usar flúor na escovação de uma criança?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Bom id"
+        },
+        {
+          "text": "Bora"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Opa"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "curiosidades",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dente de leite",
+          "synonyms": [
+            "Dente decíduos",
+            "O que são dente leite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dente de leite também tem cárie?",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Do que um dente é feito?",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maior dente humano do mundo",
+          "synonyms": [
+            "De quem é o maior dente",
+            "Quanto mede o maior"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "O que é um dente",
+          "synonyms": [
+            "Dente",
+            "Do que é feito um dente",
+            "Do que são feitos os dentes",
+            "Do que um dente é feito?",
+            "Qual a composição do dente?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Palito de dente",
+          "synonyms": [
+            "Como foram criados os",
+            "Quem inventou palito dente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quantos dentes tem na boca?",
+          "synonyms": [
+            "Dentes adulto",
+            "Dentes criança",
+            "Quantos dentes temos",
+            "Quantos dentes tem uma boca?",
+            "Quantos dentes tem uma criança?",
+            "Quantos dentes tem um adulto?",
+            "Quantos dentes uma criança tem",
+            "Quantos dentes um adulto tem",
+            "Quantos dente tem uma boca"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escovar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Escova",
+          "synonyms": [
+            "Escova de dentes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Escovar",
+          "synonyms": [
+            "Escovação",
+            "Escovo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Escovar língua",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estetica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ancoragem esquelética",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aplicação de botox",
+          "synonyms": [
+            "Botox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bichectomia",
+          "synonyms": [
+            "Lipoplastia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Clareamento dental",
+          "synonyms": [
+            "Clareamento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Facetas de porcelana",
+          "synonyms": [
+            "Dentes de porcelana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gengivectomia",
+          "synonyms": [
+            "Excesso de gengiva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harmonização facial",
+          "synonyms": [
+            "O que é harmonização facial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lente de contato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Preenchimento labial",
+          "synonyms": [
+            "O que é preenchimento labial?"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fluor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adulto",
+          "synonyms": [
+            "Adultos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Criança",
+          "synonyms": [
+            "A partir de quantos anos",
+            "Com quantos anos",
+            "Com que idade",
+            "Crianças",
+            "Filho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "O que é",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "kit_basico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Enxaguante bucal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fio dental",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pasta de dente",
+          "synonyms": [
+            "Creme dental"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saúde bucal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Visita",
+          "synonyms": [
+            "Devem ir",
+            "Primeira consulta no dentista",
+            "Visita ao dentista",
+            "Visitar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "maus_habitos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ácida",
+          "synonyms": [
+            "Abacaxi",
+            "Acerola",
+            "Frutas cítricas",
+            "Laranja",
+            "Limão",
+            "Mexirica",
+            "Tamarindo",
+            "Vinagre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Açucar",
+          "synonyms": [
+            "Bala",
+            "Chocolate",
+            "Doce",
+            "Pirulito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Café",
+          "synonyms": [
+            "Muito café",
+            "Tomar café"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chiclete",
+          "synonyms": [
+            "Goma de mascar",
+            "Mascar",
+            "Mascar chiclete"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Drogas",
+          "synonyms": [
+            "Crack"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hábitos parafuncionais",
+          "synonyms": [
+            "Morder objetos",
+            "Morder tampas",
+            "Roer unha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tabaco",
+          "synonyms": [
+            "banza",
+            "baseado",
+            "charuto",
+            "cigarro",
+            "fumar",
+            "jack",
+            "narguile",
+            "pigas",
+            "tabagismo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "saudacao_formal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": [
+            "Noite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": [
+            "Tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": [
+            "Buenas",
+            "Dia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sintomas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abscesso dentário",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Afta",
+          "synonyms": [
+            "Sapinho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bruxismo",
+          "synonyms": [
+            "dentes estão gastos",
+            "Dentes gastos",
+            "Desgaste dos dentes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cancer de boca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cárie",
+          "synonyms": [
+            "Como evitar cáries",
+            "Dor de dente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dentes amarelados",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gengivite",
+          "synonyms": [
+            "Como evitar a gengivite",
+            "O que é gengivite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Halitose",
+          "synonyms": [
+            "Mau hálito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hipersensibilidade dentinária",
+          "synonyms": [
+            "Dentes sensiveis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Má oclusão",
+          "synonyms": [
+            "Mordida errada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Periodontite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sangramento da gengiva",
+          "synonyms": [
+            "Gengiva sangra",
+            "Gengiva sangrando",
+            "Inflamação da gengiva"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Siso",
+          "synonyms": [
+            "Dente do juízo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tártaro dentário",
+          "synonyms": [
+            "Cálculo dental"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, eu sou a Sra. Sorriso! Estou aqui para ensina-lo sobre saúde bucal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1623628468996",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1623708298811",
+      "event_name": "input",
+      "dialog_node": "handler_1_1623708298817"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não lembro, mas começa sem o flúor, pra criança não engolir"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@idade:Criança && @kit_basico:Flúor",
+      "event_name": "generic",
+      "dialog_node": "handler_1_1623786968806",
+      "previous_sibling": "slot_2_1623787046356"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1623788546445",
+      "context": {
+        "sintomas_Periodontite": "@sintomas:Periodontite"
+      },
+      "conditions": "@sintomas:Periodontite",
+      "event_name": "input",
+      "dialog_node": "handler_1_1623788546445"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1623787046356",
+      "event_name": "input",
+      "dialog_node": "handler_2_1623787046357"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1623788546445",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1623788546445",
+      "previous_sibling": "handler_1_1623788546445"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1623787046356",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1623787046357",
+      "previous_sibling": "handler_2_1623787046357"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1623708298811",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1623708298817",
+      "previous_sibling": "handler_1_1623708298817"
+    },
+    {
+      "type": "frame",
+      "title": "Pergunta Sintomas",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1623737745992"
+      },
+      "conditions": "#duvidas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1623734203699",
+      "previous_sibling": "node_8_1623788455981"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não esqueça de tudo o que eu te ensinei. Até a próxima!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1623628468996",
+      "previous_sibling": "node_6_1623739286646"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1623734203699"
+      },
+      "conditions": "#duvidas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1623724488208",
+      "previous_sibling": "node_7_1623602403965"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas Estética",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#duvidas",
+      "dialog_node": "node_6_1623739286646",
+      "previous_sibling": "node_9_1623737745992"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#saudacao",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1623602403965",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Flúor",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#fluor",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1623788455981",
+      "previous_sibling": "node_4_1623724488208"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta Curiosidades",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1623739286646"
+      },
+      "conditions": "#duvidas",
+      "dialog_node": "node_9_1623737745992",
+      "previous_sibling": "node_10_1623734203699"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O tabagismo é um hábito nocivo a saúde tanto geral quanto bucal, podendo causar câncer, úlceras, mau hálito, perda dentaria, inflamação das gengivas, acúmulo de biofilme, redução da saliva, entre outros que comprometem a qualidade de vida do indivíduo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:Tabaco",
+      "dialog_node": "response_10_1623731836548",
+      "previous_sibling": "response_9_1623731464121"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dentes amarelados pode ser causado por má escovação, remédios, cigarros, ingestão de alimentos e muito pigmentados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Dentes amarelados)",
+      "dialog_node": "response_10_1623734253940",
+      "previous_sibling": "response_1_1623734227080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O clareamento pode ser feito tanto em casa, sob orientação do profissional, quanto no consultório. O procedimento devolve aos dentes sua cor natural em poucas sessões.O tratamento é feito com produtos químicos à base de peróxido de hidrogênio ou carbamida. Os resultados não são definitivos, mas podem durar cerca de dois anos, dependendo dos cuidados do paciente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Clareamento dental)",
+      "dialog_node": "response_10_1623739493207",
+      "previous_sibling": "response_6_1623739470218"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O flúor é um mineral natural encontrado em toda a crosta terrestre e largamente distribuído pela natureza. Alguns alimentos contêm flúor, assim como a água fornecida por algumas empresas de serviço público. Deve estar presente nas pastas de dente. Na concentração de 1000 a 1500 ppm de flúor. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@fluor:Adulto",
+      "dialog_node": "response_10_1623786116473",
+      "previous_sibling": "response_5_1623734886499"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A escovação para idosos, adultos e crianças deve  ser feita pelo menos 3 vezes ao dia, fazendo movimentos circulares para dentes da frente, e vai e vem para os dentes do fundo. É importante para eliminar resíduos de alimentos e placa bacteriana que podem causar doenças bucais como a cárie e inflamação da gengiva."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@escovar:Escovar",
+      "dialog_node": "response_1_1623724670779",
+      "previous_sibling": "handler_1_1623786968806"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A escova perfeita deve ter cerdas macias e tamanho da cabeça que possibilite a higienização dos dentes posicionados mais no fundo da boca. É indicado trocar as escovas de dente numa média de 3 meses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@escovar:Escova",
+      "dialog_node": "response_1_1623730411916",
+      "previous_sibling": "response_9_1623729678287"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A Halitose, ou mau hálito, é em sua maioria causado pela má higiene bucal que leva a inflamação na gengiva. Também pode estar atribuída ao tipo de alimento ingerido, consumo de álcool ou tabaco, diabetes, doenças estomacais e estresse."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Halitose",
+      "dialog_node": "response_1_1623734227080",
+      "previous_sibling": "slot_10_1623788546445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Crianças têm 20 dentes e adultos 32: As crianças têm menos dentes porque a boca ainda está em desenvolvimento. A partir da troca de dentição, a boca já tem o tamanho ideal para agregar os novos dentes que terão novas funções."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(Quantos dentes tem na boca?)",
+      "dialog_node": "response_1_1623738149048",
+      "previous_sibling": "response_5_1623738052367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dentes não são considerados ossos. Os dentes são feitos de cálcio, fósforo e outros minerais do corpo humano. A diferença é que os ossos, além disso, também contém colágeno. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(O que é um dente)",
+      "dialog_node": "response_1_1623738537672",
+      "previous_sibling": "response_1_1623738149048"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "O preenchimento labial utiliza o ácido hialurônico como base para a técnica. Além dele, a gordura autógena, que é retirada do próprio corpo, também pode ser usada para preencher a região. Independente do material escolhido, é importante que o procedimento seja feito e acompanhado pelo seu dentista de confiança."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Preenchimento labial)",
+      "dialog_node": "response_1_1623739306357"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A bichectomia, ou lipoplastia facial como também é conhecida, é a cirurgia feita para retirada parcial da “bola de bichat”, que é a gordurinha das bochechas. Ela faz com que as maçãs do rosto e a linha da mandíbula fiquem realçadas causando uma aparência estética de rosto mais fino e alongado. A técnica é uma grande aliada para pacientes que têm o costume de morder a bochecha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:Bichectomia",
+      "dialog_node": "response_1_1623739446760",
+      "previous_sibling": "response_9_1623739401112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Má oclusão, ou mordida errada, é quando os dentes tem uma alteração no encaixe. O que pode resultar em danos para os dentes, gengivas, ossos, músculos, ligamentos e articulações. Causa dores de cabeça, mandíbula e ouvido, dificuldade na mastigação, perda de dentes e má postura e desvios na coluna. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Má oclusão)",
+      "dialog_node": "response_2_1623734289063",
+      "previous_sibling": "response_10_1623734253940"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O café tem um pH mais baixo que o da boca, sendo bastante ácido. Essa acidez agride o esmalte, provocando uma desmineralização e o tornando mais poroso. Esse processo facilita que o pigmento escuro do café se instale no esmalte, causando manchas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:Café",
+      "dialog_node": "response_2_1623734784819",
+      "previous_sibling": "response_8_1623731994566"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O procedimento consiste na retirada do excesso de gengiva. Além disso, o tratamento também ajuda a eliminar as bolsas gengivais e o aumento da coroa dentária. Embora a cirurgia seja bem simples, é preciso ter em mente que o processo de cicatrização leva cerca de um mês e, por isso, requer alguns cuidados no pós-operatório.   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:Gengivectomia",
+      "dialog_node": "response_2_1623739362800",
+      "previous_sibling": "response_7_1623739347136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os bebês até dois anos não tem indicação para uso do flúor, assim como também não devem ingerir açúcares. O uso de cremes dentais com esse elemento protetor é indicado apenas quando o pequeno passa a consumir açúcar, buscando evitar que a criança não engula. Se isso for feito antes dos dois anos, o creme deve ser colocado na pasta no tamanho de um grão de arroz e deve ter a concentração máxima de 1100 ppm de flúor.7 de mar. de 2019"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1623788455981",
+      "conditions": "@fluor:Criança",
+      "dialog_node": "response_2_1623788571002"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O flúor é um mineral natural encontrado em toda a crosta terrestre e largamente distribuído pela natureza. Alguns alimentos contêm flúor, assim como a água fornecida por algumas empresas de serviço público. Deve estar presente nas pastas de dente. Na concentração de 1000 a 1500 ppm de flúor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1623788455981",
+      "conditions": "@fluor:(O que é)",
+      "dialog_node": "response_2_1623790702874",
+      "previous_sibling": "response_2_1623788571002"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O enxaguante bucal pode ser um complemento a higienização bucal, não sendo suficiente apenas seu uso para manutenção da saúde bucal. Preconiza-se seu uso antes das escovações e de preferência utilizar formulações sem álcool na composição."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:(Enxaguante bucal)",
+      "dialog_node": "response_3_1623725070339",
+      "previous_sibling": "response_4_1623725031850"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deve-se utilizar a dosagem indicada para a idade. Sendo um grão de ervilha para adultos. E um grão de arroz para crianças. A pasta deve conter flúor e deve ser pouco abrasiva."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:(Pasta de dente)",
+      "dialog_node": "response_3_1623728258217",
+      "previous_sibling": "response_4_1623727098871"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O botox é bastante usado para mexer um pouquinho no rosto, tirar algumas rugas, dar um retoque nas marquinhas de expressão e até mesmo corrigir sorrisos gengivais. Além disso, o procedimento também é um ótimo controlador tanto do bruxismo do sono quanto o bruxismo de vigília."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Aplicação de botox)",
+      "dialog_node": "response_3_1623739380050",
+      "previous_sibling": "response_2_1623739362800"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A gengivite é a fase inicial da doença das gengivas, é a inflamação dos tecidos da gengiva que bordeiam os dentes.  Se não for tratada, a gengivite pode virar periodontite que pode ser uma causa importante da perda dental em adultos.  Em alguns casos, a gengivite pode ser indolor e, portanto, as pessoas não se apercebem dela. Para ajudar a prevenir a gengivite você deverá ter visitas regulares com o odontologista, bem como escovar duas vezes por dia e usar enxague bucal podem ajudar a controlar tanto a placa, quanto a gengivite. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Gengivite",
+      "dialog_node": "response_3_1623780231945",
+      "previous_sibling": "response_7_1623735009887"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Passar fio dental após as refeições e antes da escovação.  o uso do fio dental deve acontecer de maneira cuidadosa, sendo realizado para limpeza dos espaços interdentais. Deve-se introduzir o fio no espaço entre os dentes, abraçando um dente de cada vez e fazer movimentos de polimento. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:(Fio dental)",
+      "dialog_node": "response_4_1623725031850",
+      "previous_sibling": "response_1_1623724670779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A higienização da língua deve ser realizada junto a todas as escovações. A língua acumula resíduos alimentares e bactérias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@escovar:(Escovar língua)",
+      "dialog_node": "response_4_1623727098871",
+      "previous_sibling": "response_3_1623725070339"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Cárie é causada pela má higienização bucal ou a ingestão de açúcares em excesso causam o acúmulo de bactérias na boca, alterando o pH da região e causando fissuras e buracos. Além das dores intensas, casos extremos e não tratados levam a perda do dente. Para prevenção, lembre-se de sempre trocar a sua escova de dentes de três em três meses, use sempre o fio dental, beba bastante água, evite cigarros e vá ao dentista regularmente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Cárie",
+      "dialog_node": "response_4_1623734352757",
+      "previous_sibling": "response_8_1623734317253"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "O maior dente humano do mundo, de acordo com a edição de 2011 do Guiness Book é do incisivo que media 5,2 centímetros e era de um brasileiro! O dente foi extraído por um dentista em Ilicínea, Minas Gerais, em Agosto de 2009."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(Maior dente humano do mundo)",
+      "dialog_node": "response_4_1623737793095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os bebês até dois anos não tem indicação para uso do flúor, assim como também não devem ingerir açúcares. O uso de cremes dentais com esse elemento protetor é indicado apenas quando o pequeno passa a consumir açúcar, buscando evitar que a criança não engula."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@fluor:Criança",
+      "dialog_node": "response_4_1623787332887",
+      "previous_sibling": "response_10_1623786116473"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O sangramento na gengiva é mais comumente causada por uma inflamação gerada por placa bacteriana, como a gengivite ou a periodontite. Caso a placa não seja removida diariamente por meio de escovação ou uso diário do fio dental, a placa se transforma em tártaro, facilitando o acúmulo de mais placas bacterianas. As bactérias dessas regiões podem infectar a gengiva e os dentes, podendo ocasionar a perda de osso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Sangramento da gengiva)",
+      "dialog_node": "response_5_1623734380401",
+      "previous_sibling": "response_4_1623734352757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O dente do siso, ou dente do “juízo”, é o terceiro molar. Podendo estar presente na boca por volta de 14 anos, sua extração deve ser avaliada por um cirurgião-dentista. As indicações de extração do dente são: mau posicionamento em boca, dificuldade de higienização pelo paciente e/ou dor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Siso",
+      "dialog_node": "response_5_1623734688459",
+      "previous_sibling": "response_7_1623734625058"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A saúde bucal é importante para a manutenção e cuidado dos dentes e da saúde da boca em geral. A informação é a maior aliada da prevenção."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:(Saúde bucal)",
+      "dialog_node": "response_5_1623734886499",
+      "previous_sibling": "response_9_1623734804420"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O norte-americano Charles Forster, depois de morar no Brasil (em Pernambuco) entre as décadas de 1840 e 1850, encantou-se com a beleza da dentição das mulheres brasileiras, que usavam palitos de salgueiro para remover restos de comida dos dentes. Voltando aos EUA, contratou um inventor de máquinas para que criassem um equipamento de produção de lascas de madeiras. Surge, então, o palito de dente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(Palito de dente)",
+      "dialog_node": "response_5_1623738052367",
+      "previous_sibling": "response_6_1623738003757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma faceta é uma peça fina de porcelana usada para recriar a aparência natural dos dentes, ao mesmo tempo em que fornece força e elasticidade comparável ao esmalte do dente natural."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Facetas de porcelana)",
+      "dialog_node": "response_5_1623739542573",
+      "previous_sibling": "response_10_1623739493207"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dentes de leite são mais suscetíveis à cárie dental, pois, sua mineralização total ocorre nos dois primeiros anos após eles terem irrompidos na boca. A anatomia dos dentes também colabora para a incidência da doença cárie."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(Dente de leite também tem cárie?)",
+      "dialog_node": "response_5_1623788972857",
+      "previous_sibling": "response_1_1623738537672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1623602403965",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1623698289316",
+      "previous_sibling": "response_7_1623672566021"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O enxaguante bucal pode ser um complemento a higienização bucal, não sendo suficiente apenas seu uso para manutenção da saúde bucal. Preconiza-se seu uso antes das escovações e de preferência utilizar formulações sem álcool na composição."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:(Enxaguante bucal)",
+      "dialog_node": "response_6_1623728972988",
+      "previous_sibling": "response_3_1623728258217"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hipersensibilidade dentinária, ou dentes sensíveis, é uma condição que se desenvolve com o tempo, devido a retração gengival e desgaste do esmalte dentário, deixando a dentina exposta. Milhões de canais ligam a dentina ao centro do dente, e quando exposta estímulos externos (bebida gelada) ativam os nervos do núcleo do dente, causando uma dor aguda."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Hipersensibilidade dentinária)",
+      "dialog_node": "response_6_1623734557214",
+      "previous_sibling": "response_8_1623734493826"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dentes de leite são os dentes decíduos: O apelido de dente de leite aos dentes decíduos foi dado porque eles são mais branquinhos que os permanentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1623737745992",
+      "conditions": "@curiosidades:(Dente de leite)",
+      "dialog_node": "response_6_1623738003757",
+      "previous_sibling": "response_4_1623737793095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É impossível falar sobre procedimentos estéticos sem citar a harmonização facial. Embora o tratamento fosse feito exclusivamente por médicos, hoje ele faz parte do dia a dia dos consultórios odontológicos. Geralmente, a técnica mais utilizada é através do preenchimento com ácido hialurônico ou a aplicação de toxina botulínica."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Harmonização facial)",
+      "dialog_node": "response_6_1623739470218",
+      "previous_sibling": "response_1_1623739446760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@saudacao_formal."
+              },
+              {
+                "text": "Olá, @saudacao_formal. Em que posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1623602403965",
+      "conditions": "@saudacao_formal",
+      "dialog_node": "response_7_1623672566021",
+      "previous_sibling": "slot_8_1623708298811"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tártaro dentário, às vezes também chamado de cálculo dental, é a placa bacteriana ou biofilme dental que endurece na superfície dos dentes. O tártaro também pode se formar sob a gengiva e irritar os tecidos gengivais. Além disso, o tártaro dá à placa bacteriana um espaço maior e propício para o seu crescimento, o que pode levar a problemas mais sérios como a cárie e gengivite."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Tártaro dentário)",
+      "dialog_node": "response_7_1623734625058",
+      "previous_sibling": "response_6_1623734557214"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Afta é o nome popular para a doença chamada estomatite. É um problema muito comum e que não possui consequências graves, mas seus sintomas podem ser bastante incômodos. São pequenas lesões bem sensíveis, que podem causar dor e sensação de ardência no local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Afta",
+      "dialog_node": "response_7_1623734752878",
+      "previous_sibling": "response_5_1623734688459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O câncer de boca é um tipo de tumor maligno, normalmente diagnosticado pelo dentista, que pode surgir em qualquer estrutura da boca, desde lábios, língua, bochechas e até gengiva. Este tipo de câncer é mais comum após os 50 anos, mas pode surgir em qualquer idade, sendo que é mais frequente em fumantes e pessoas com má higiene bucal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Cancer de boca)",
+      "dialog_node": "response_7_1623735009887",
+      "previous_sibling": "response_7_1623734752878"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As lentes de contato dental são lâminas finas de porcelana que são cimentadas aos dentes. São indicadas para pacientes que têm algum tipo de alteração de forma, cor, tamanho e/ou alinhamento dentais que possam desagradar esteticamente a harmonia do sorriso. Elas podem ser colocadas em um ou vários dentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Lente de contato)",
+      "dialog_node": "response_7_1623739347136",
+      "previous_sibling": "response_1_1623739306357"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infecção gengival grave que danifica as gengivas e pode destruir o osso maxilar. A periodontite é comum, mas bastante evitável. Geralmente, é causada por má higiene oral. A periodontite pode levar à perda do dente. É um fator de risco para doenças cardíacas e pulmonares. Os sintomas incluem gengivas inchadas, vermelhas e sensíveis. O tratamento inclui limpeza profissional das bolsas ao redor dos dentes para evitar danos ao osso circundante. Casos avançados podem exigir cirurgia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Periodontite",
+      "dialog_node": "response_7_1623785951326",
+      "previous_sibling": "response_3_1623780231945"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não é aconselhável o consumo excessivo de açúcar, porque ele promove um ambiente bucal ácido cooperando para o desenvolvimento de doenças como a cárie."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:Açucar",
+      "dialog_node": "response_8_1623731170077",
+      "previous_sibling": "response_1_1623730411916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Morder tampa de caneta e roer unha são alguns dos atos prejudiciais que podem causar fraturas e mudança de posição dos dentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:(Hábitos parafuncionais)",
+      "dialog_node": "response_8_1623731994566",
+      "previous_sibling": "response_10_1623731836548"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bruxismo, ou desgastes dos dentes, é o ranger dos dentes de forma involuntária, desgastando os dentes, provocando dor ao abrir e fechar a boca, dores de cabeça constantes e até doenças periodontais. Causado em maioria por distúrbios emocionais e tem maior frequência durante o sono. Esse distúrbio atinge por volta de 15% da população (mulheres, na maioria) e tem a ver com o stress e agitação do dia a dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:Bruxismo",
+      "dialog_node": "response_8_1623734317253",
+      "previous_sibling": "response_2_1623734289063"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Abscesso dentário é causado por infecções bacterianas, geralmente se manifestando quando há acúmulo de pus em torno da raiz do dente.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1623734203699",
+      "conditions": "@sintomas:(Abscesso dentário)",
+      "dialog_node": "response_8_1623734493826",
+      "previous_sibling": "response_5_1623734380401"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As visitas regulares ao dentista devem acontecer no mínimo de 6 em 6 meses. Porém, ao primeiro sinal de dor ou desconforto, você deve procurar o dentista mais próximo para o profissional diagnosticar possíveis doenças. Já a primeira consulta com o odontopediatra, dentista especialista em atendimento infantil, deve ser realizada assim que nasce o primeiro dente de leite. Para um melhor acompanhamento do desenvolvimento da dentição, as consultas devem ser realizadas a cada três meses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@kit_basico:Visita",
+      "dialog_node": "response_9_1623729678287",
+      "previous_sibling": "response_6_1623728972988"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma dieta muito ácida pode comprometer a integridade dos dentes, provocando desgaste e perda de estrutura dentária."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:Ácida",
+      "dialog_node": "response_9_1623731464121",
+      "previous_sibling": "response_8_1623731170077"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chicletes não resolvem problemas com mau hálito ou dentes escuros, muito menos substituem a escovação. São opções paliativas e que podem piorar outros problemas que talvez você desconheça por não manter uma frequência ao dentista."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623724488208",
+      "conditions": "@maus_habitos:Chiclete",
+      "dialog_node": "response_9_1623734804420",
+      "previous_sibling": "response_2_1623734784819"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estético e funcional. O tratamento consiste em colocar pequenas placas na maxila e na mandíbula, com o objetivo de servir de âncora para o aparelho ortodôntico. A ancoragem, junto com o aparelho, busca corrigir a posição dos dentes e a mordida de forma mais rápida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623739286646",
+      "conditions": "@estetica:(Ancoragem esquelética)",
+      "dialog_node": "response_9_1623739401112",
+      "previous_sibling": "response_3_1623739380050"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1623734203699",
+      "variable": "$sintomas_Periodontite",
+      "dialog_node": "slot_10_1623788546445"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1623724488208",
+      "dialog_node": "slot_2_1623787046356"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1623602403965",
+      "dialog_node": "slot_8_1623708298811"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Perguntas e respostas",
+  "language": "pt-br",
+  "description": ""
+}
