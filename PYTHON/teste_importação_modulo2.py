@@ -1,6 +1,6 @@
 #importação de funções específica do módulo calc.py
 #para impantar todas as funções, utilizar "*"
-from calc import somar, subtrair
+from calc import *
 #solicitando valores ao usuário
 valor1 = input("Digite um valor: ")
 valor2 = input("Digite outro valor: ")
